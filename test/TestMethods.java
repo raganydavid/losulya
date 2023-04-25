@@ -5,7 +5,7 @@ import java.util.ArrayList;
 
 
 import org.junit.jupiter.api.BeforeEach;
-import org.junit.jupiter.api.Test;              // a jupiter az ötös verzió ami, pl a jupiter néküli az a 4-es verzió
+import org.junit.jupiter.api.Test;              // a jupiter az ötös verzió ami, pl a jupiter néküli az a 4-es verzió //
 
 import controllers.MainController;
 
