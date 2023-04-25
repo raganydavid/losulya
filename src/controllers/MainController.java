@@ -8,12 +8,12 @@ public class MainController {
         this.mainFrame = new MainFrame();
         handleEvents();
     }
-    private void handleEvents() {
+    public void handleEvents() {
         this.mainFrame.getCalcButton().addActionListener(e -> {
              this.startCalc();
         });
     }
-    private void startCalc() {
+    public void startCalc() {
         System.out.println("Működik");
         double perimeter = Double.parseDouble(
             this.mainFrame.getPerimeterPanel().getValue()
